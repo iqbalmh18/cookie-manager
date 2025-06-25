@@ -12,7 +12,7 @@ Manage your cookies with a single click! Get, update, delete, import, and export
 | Delete     | `Delete cookie from site`     |
 ### Installation
 - Download this repo as ZIP
-- Open your browser > extenstion > import from ZIP
+- Open your browser > extension > import from ZIP
 - Select ZIP file you have already downloaded
 ### Assets
 - Fonts: [JetBrains Mono](https://www.jetbrains.com/mono)
