@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "Cookie Manager",
+    "version": "1.0.0",
+    "description": " Manage your cookies with a single click! Get, update, delete, import, and export cookies quickly.",
+    "icons": {
+        "16": "icons/icon-16.png",
+        "24": "icons/icon-24.png",
+        "32": "icons/icon-32.png",
+        "64": "icons/icon-64.png",
+        "128": "icons/icon-128.png"
+    },
+    "permissions": [
+        "scripting",
+        "cookies",
+        "activeTab",
+        "downloads",
+        "clipboardWrite"
+    ],
+    "host_permissions": [
+        "*://*/*"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "icons/icon-128.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}

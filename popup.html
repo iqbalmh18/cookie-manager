@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cookie Manager</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/popup.css">
+</head>
+<body>
+    <div class="container">
+        <header class="navbar">
+            <h1 class="app-title">Cookie Manager</h1>
+            <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+                <span class="material-icons">dark_mode</span>
+            </button>
+        </header>
+
+        <textarea id="cookieString" class="cookie-textarea" placeholder="cookie data will appear here or put your cookie here to update manually"></textarea>
+
+        <div class="button-grid">
+            <button id="getCookies" class="button primary-button">
+                <span class="material-icons">cloud_download</span>
+                Get
+            </button>
+
+            <button id="updateCookies" class="button success-button">
+                <span class="material-icons">cloud_upload</span>
+                Update
+            </button>
+            
+            <button id="copyCookies" class="button copy-button">
+                <span class="material-icons">content_copy</span>
+                Copy
+            </button>
+
+            <input type="file" id="importCookiesFile" accept=".txt" style="display: none;">
+            <button id="importCookiesButton" class="button info-button">
+                <span class="material-icons">folder_open</span>
+                Import
+            </button>
+
+            <button id="exportCookiesButton" class="button info-button">
+                <span class="material-icons">save_alt</span>
+                Export
+            </button>
+
+            <button id="clearCookies" class="button danger-button">
+                <span class="material-icons">delete_sweep</span>
+                Delete
+            </button>
+        </div>
+
+        <div id="statusMessage" class="status-message" role="alert" aria-live="polite"></div>
+        <p class="footer-text">© 2025 by iqbalmh18</p> 
+    </div>
+
+    <script src="js/popup.js"></script>
+</body>
+</html>
