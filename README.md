@@ -11,6 +11,7 @@ Manage your cookies with a single click! Get, update, delete, import, and export
 | Export     | `Export to local storage`     |
 | Delete     | `Delete cookie from site`     |
 ### Installation
+How to install and use Cookie Manager on Kiwi Browser (Android) [click here](https://postimg.cc/cv4FnfQK)
 - Download this repo as ZIP
 - Open your browser > extension > import from ZIP
 - Select ZIP file you have already downloaded
